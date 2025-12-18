@@ -1,0 +1,10 @@
+{
+  "chapter_id": "urdf-humanoids",
+  "title": "URDF for Humanoids",
+  "path": "/docs/ros2/urdf-humanoids",
+  "chunk_ids": ["urdf-001", "urdf-002", "urdf-003", "urdf-004"],
+  "related_chapters": ["agent-controller-bridge", "testing-deployment"],
+  "word_count": 1350,
+  "token_count": 1080,
+  "last_indexed": "2025-12-16T13:00:00Z"
+}

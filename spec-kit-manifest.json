@@ -1,0 +1,93 @@
+{
+  "manifest_version": "1.0.0",
+  "project_name": "Physical AI & Humanoid Robotics Textbook",
+  "description": "A comprehensive textbook covering ROS 2 fundamentals and advanced robotics concepts",
+  "chapters": [
+    {
+      "id": "ros2-intro",
+      "title": "Introduction to ROS 2",
+      "path": "/docs/ros2/intro",
+      "tags": ["ros2", "introduction", "overview"],
+      "difficulty": "beginner",
+      "estimated_time": "15 minutes",
+      "learning_objectives": [
+        "Understand the purpose of this textbook",
+        "Navigate the textbook structure",
+        "Set up the development environment"
+      ]
+    },
+    {
+      "id": "ros2-fundamentals",
+      "title": "ROS 2 Fundamentals",
+      "path": "/docs/ros2/fundamentals",
+      "tags": ["ros2", "fundamentals", "nodes", "topics", "services", "actions", "qos"],
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "learning_objectives": [
+        "Understand the core concepts of ROS 2 architecture",
+        "Create and manage ROS 2 nodes for communication",
+        "Implement publisher/subscriber communication patterns"
+      ]
+    },
+    {
+      "id": "rclpy-agents",
+      "title": "rclpy Python Agents",
+      "path": "/docs/ros2/rclpy-agents",
+      "tags": ["ros2", "rclpy", "python", "agents", "parameters", "lifecycle", "launch"],
+      "difficulty": "intermediate",
+      "estimated_time": "75 minutes",
+      "learning_objectives": [
+        "Understand the rclpy client library and its role in ROS 2",
+        "Create parameterized ROS 2 nodes with dynamic configuration",
+        "Implement lifecycle nodes for robust system management"
+      ]
+    },
+    {
+      "id": "agent-controller-bridge",
+      "title": "Agent ↔ Controller Bridge",
+      "path": "/docs/ros2/agent-controller-bridge",
+      "tags": ["ros2", "ros2-control", "controllers", "control-loops", "hardware-interface"],
+      "difficulty": "advanced",
+      "estimated_time": "90 minutes",
+      "learning_objectives": [
+        "Understand the ros2_control framework and its architecture",
+        "Implement controller manager and hardware interface components",
+        "Create control loops connecting high-level agents with low-level controllers"
+      ]
+    },
+    {
+      "id": "urdf-humanoids",
+      "title": "URDF for Humanoids",
+      "path": "/docs/ros2/urdf-humanoids",
+      "tags": ["urdf", "xacro", "links", "joints", "sensors", "humanoid", "kinematics"],
+      "difficulty": "advanced",
+      "estimated_time": "105 minutes",
+      "learning_objectives": [
+        "Understand the Unified Robot Description Format (URDF) and its XML structure",
+        "Create robot models with proper links, joints, and kinematic chains",
+        "Implement XACRO macros for complex humanoid models"
+      ]
+    },
+    {
+      "id": "testing-deployment",
+      "title": "Testing & Deployment",
+      "path": "/docs/ros2/testing-deployment",
+      "tags": ["ros2", "testing", "ci", "docker", "debugging", "deployment"],
+      "difficulty": "intermediate",
+      "estimated_time": "90 minutes",
+      "learning_objectives": [
+        "Implement comprehensive testing strategies for ROS 2 systems",
+        "Set up continuous integration pipelines for ROS 2 packages",
+        "Create Docker containers for ROS 2 applications"
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-16",
+    "last_updated": "2025-12-16",
+    "total_chapters": 6,
+    "total_estimated_time": "430 minutes",
+    "target_audience": "Advanced undergraduates / early graduate students in AI, robotics, CS, EE",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "chapter_id": "ros2-fundamentals",
+  "title": "ROS 2 Fundamentals",
+  "path": "/docs/ros2/fundamentals",
+  "chunk_ids": ["fundamentals-001", "fundamentals-002", "fundamentals-003"],
+  "related_chapters": ["rclpy-agents", "agent-controller-bridge"],
+  "word_count": 1250,
+  "token_count": 980,
+  "last_indexed": "2025-12-16T10:00:00Z"
+}

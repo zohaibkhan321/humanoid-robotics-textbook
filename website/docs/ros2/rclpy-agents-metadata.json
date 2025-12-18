@@ -1,0 +1,10 @@
+{
+  "chapter_id": "rclpy-agents",
+  "title": "rclpy Python Agents",
+  "path": "/docs/ros2/rclpy-agents",
+  "chunk_ids": ["rclpy-001", "rclpy-002", "rclpy-003", "rclpy-004"],
+  "related_chapters": ["fundamentals", "agent-controller-bridge"],
+  "word_count": 1250,
+  "token_count": 1000,
+  "last_indexed": "2025-12-16T11:00:00Z"
+}
