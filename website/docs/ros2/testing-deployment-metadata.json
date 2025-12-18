@@ -1,0 +1,10 @@
+{
+  "chapter_id": "testing-deployment",
+  "title": "Testing & Deployment",
+  "path": "/docs/ros2/testing-deployment",
+  "chunk_ids": ["testing-001", "testing-002", "testing-003", "testing-004"],
+  "related_chapters": ["fundamentals", "rclpy-agents"],
+  "word_count": 1200,
+  "token_count": 960,
+  "last_indexed": "2025-12-16T14:00:00Z"
+}

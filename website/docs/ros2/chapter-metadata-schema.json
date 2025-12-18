@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Chapter Metadata Schema",
+  "description": "Schema for chapter metadata to support RAG indexing",
+  "properties": {
+    "chapter_id": {
+      "type": "string",
+      "description": "Unique identifier for the chapter for RAG",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Chapter title"
+    },
+    "path": {
+      "type": "string",
+      "description": "File path in docs structure"
+    },
+    "chunk_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs for RAG chunking"
+    },
+    "related_chapters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Navigation suggestions to other chapters"
+    },
+    "word_count": {
+      "type": "number",
+      "description": "Total word count for reading time estimation",
+      "minimum": 0
+    },
+    "token_count": {
+      "type": "number",
+      "description": "Total token count for RAG processing",
+      "minimum": 0
+    },
+    "last_indexed": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of last RAG indexing"
+    }
+  },
+  "required": ["chapter_id", "title", "path", "chunk_ids"]
+}
