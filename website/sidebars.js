@@ -54,6 +54,7 @@ const sidebars = {
       items: [
         'module-4/voice-to-action-systems',
         'module-4/llm-cognitive-planning',
+        'module-4/rag-chatbot',
       ],
     },
   ],

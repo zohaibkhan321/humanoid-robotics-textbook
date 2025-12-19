@@ -1,0 +1,65 @@
+.chatbotHeroBanner {
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .chatbotHeroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.chatbotMain {
+  padding: 2rem 0;
+}
+
+.chatbotContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .chatbotContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.chatbotWrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.chatbotInfo {
+  flex: 1;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.chatbotInfo h2 {
+  color: var(--ifm-color-primary);
+  margin-top: 2rem;
+}
+
+.chatbotInfo ul {
+  padding-left: 1.5rem;
+}
+
+.chatbotInfo li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
