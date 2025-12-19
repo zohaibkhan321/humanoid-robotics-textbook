@@ -86,6 +86,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/chatbot',
+            label: '🤖 Chatbot',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/zohaibkhan321/humanoid-robotics-textbook',
             label: 'GitHub',
             position: 'right',
